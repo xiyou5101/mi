@@ -1,13 +1,42 @@
 <template>
   <div id="app">
     <div id="nav">
-      <h1>加一个字</h1>
+      
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </div>
     <router-view/>
   </div>
 </template>
+<script>
+
+  export default {
+    name:'',
+    props:[''],
+    data () {
+      return {
+        age:30
+
+      };
+    },
+
+    components: {},
+
+    computed: {},
+
+    beforeMount() {},
+
+    mounted() {},
+
+    methods: {},
+
+    watch: {}
+
+  }
+
+</script>
+
+
 
 <style>
 #app {
